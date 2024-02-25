@@ -1,0 +1,70 @@
+.header-content {
+  background-image: url("images/apple_vision_pro_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+  height: 100vh;
+  margin: -100px;
+}
+
+.header-content h1 {
+  font-size: 56px;
+}
+
+.header-content p {
+  font-size: 28px;
+}
+
+.header-content .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.header-content .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 16px;
+  background-color: rgb(250, 250, 250);
+  margin: 30px;
+}
+
+.details {
+  text-align: center;
+  padding: 20px;
+}
+
+.details h2 {
+  font-size: 30px;
+}
+
+.price {
+  font-size: 24px;
+  text-decoration: solid underline;
+}
+.description {
+  list-style: none;
+  line-height: 70px;
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  text-decoration: underline;
+  color: grey;
+}
